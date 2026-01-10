@@ -34,8 +34,8 @@ export default function LayoutWrapper({
       <BottomNavigation />
       <InstallPrompt />
       <FloatingWhatsApp />
-      <SlidingAnnouncementPopup />
-      <VersionToast />
+      {/* <SlidingAnnouncementPopup />
+      <VersionToast /> */}
     </div>
   )
 }
