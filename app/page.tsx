@@ -1,42 +1,28 @@
-import Navbar from "../app/components/Navbar";
-import Header from "../app/components/Header";
-import About from "../app/components/About";
-// import Whatwedo from './components/Whatwedo'
-import Impact from "../app/components/Impact";
-import Services from "../app/components/Services";
-import Gallery from "../app/components/Gallery";
-
-import Testimonials from "../app/components/Testimonials"; // Import Testimonials component
-import Partner from "./components/partner";
-
-import Footer from "../app/components/Footer";
-import Hero2 from "../app/components/Hero2";
-
-// export const metadata = {
-//   title: 'Carelife Foundation',
-//   description: ' NGO, Charity, Support, Intervention programs, Nigeria,UK.', // Updated description
-//   icons: {
-//     icon: '/favicon.ico',
-//   },
-// };
+import LayoutWrapper from "@/components/layout-wrapper"
+import HeroCarousel from "@/components/hero-carousel"
+import MissionSection from "@/components/mission-section"
+import ImpactSection from "@/components/impact-section"
+import CoreValuesSection from "@/components/core-values-section"
+import VideoSection from "@/components/video-section"
+import QuoteSection from "@/components/quote-section"
+import GallerySection from "@/components/gallery-section"
+import TestimonialsSection from "@/components/testimonials-section"
+import PartnersSection from "@/components/partners-section"
+import GetInTouch from "@/components/get-in-touch"
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <Header />
-      <About />
-      {/* <Whatwedo/> */}
-      <Impact />
-      <Services />
-      <Gallery />
-
-      <Testimonials />
-      <Partner />
-
-      <Hero2 />
-
-      <Footer />
-    </>
-  );
+    <LayoutWrapper>
+      <HeroCarousel />
+      <MissionSection />
+      <ImpactSection />
+      <CoreValuesSection />
+      <VideoSection />
+      <QuoteSection />
+      <GallerySection />
+      {/* <TestimonialsSection /> */}
+      <PartnersSection />
+      <GetInTouch />
+    </LayoutWrapper>
+  )
 }
