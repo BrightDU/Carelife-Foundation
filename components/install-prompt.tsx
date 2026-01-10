@@ -30,14 +30,14 @@ export default function InstallPrompt() {
     window.addEventListener("beforeinstallprompt", handler)
 
     // Log for debugging
-    console.log("[v0] Install prompt component mounted, listening for beforeinstallprompt")
+    console.log("Install prompt component mounted, listening for beforeinstallprompt")
 
     return () => window.removeEventListener("beforeinstallprompt", handler)
   }, [])
 
   const handleInstall = async () => {
     if (deferredPrompt) {
-      console.log("[v0] Install button clicked")
+      console.log("Install button clicked")
       deferredPrompt.prompt()
       const { outcome } = await deferredPrompt.userChoice
       if (outcome === "accepted") {

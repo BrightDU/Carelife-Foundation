@@ -138,7 +138,7 @@
 import { useEffect, useState } from "react"
 import { X, RefreshCw } from "lucide-react"
 
-const CURRENT_VERSION = process.env.NEXT_PUBLIC_APP_VERSION || "1.1.0"
+const CURRENT_VERSION = process.env.NEXT_PUBLIC_APP_VERSION || "1.0.0"
 const DB_NAME = "carelife_app"
 const STORE_NAME = "version_info"
 
@@ -238,7 +238,9 @@ export default function VersionToast() {
       <div className="bg-card border-l-4 border-primary rounded-lg shadow-lg p-4 flex items-start gap-4">
         <div className="flex-1">
           <h3 className="font-semibold text-foreground mb-1">New UI Available</h3>
-          <p className="text-sm text-muted-foreground">A new version of CareLife Foundation is ready to download.</p>
+          <p className="text-sm text-muted-foreground">
+            A new version (v{CURRENT_VERSION}) of CareLife Foundation is ready to download.
+          </p>
           <div className="flex gap-2 mt-3">
             <button
               onClick={handleUpdate}
@@ -267,3 +269,4 @@ export default function VersionToast() {
     </div>
   )
 }
+
