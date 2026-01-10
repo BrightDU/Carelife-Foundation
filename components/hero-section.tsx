@@ -21,14 +21,20 @@ export default function HeroSection() {
         <ScrollReveal animation="fade-in-up">
           <div className="text-center max-w-4xl mx-auto">
             <p className="text-white/90 font-semibold text-sm md:text-base mb-4 animate-scale-in">
-              Empowering Africa's Future
+              Making the difference
             </p>
+            {/* <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6 text-balance">
+              Caring for Early Lives
+            </h1> */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6 text-balance">
               Caring for Early Lives
             </h1>
-            <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto text-balance">
+            {/* <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto text-balance">
               Empowering every child to embrace adulthood positively through healthcare, nutrition, and early childhood
               development.
+            </p> */}
+            <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto text-balance">
+              One Mother. one Child at a Time.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">

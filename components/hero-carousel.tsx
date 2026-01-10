@@ -7,11 +7,11 @@ import ScrollReveal from "./scroll-reveal"
 const CAROUSEL_IMAGES = [
   {
     src: "/hero/1.jpg",
-    caption: "Caring for early lives",
+    caption: "Making the difference",
   },
   {
     src: "/hero/2.jpg",
-    caption: "Empowering every child",
+    caption: "One Mother. one Child at a Time.",
   },
   {
     src: "/hero/3.jpg",
@@ -125,15 +125,15 @@ export default function HeroCarousel() {
           <div className="text-center max-w-4xl mx-auto px-4">
             <ScrollReveal animation="fade-in-up">
               <div>
-                <p className="text-white/90 font-semibold text-sm md:text-base mb-4">Empowering Africa's Future</p>
+                <p className="text-white/90 font-semibold text-sm md:text-base mb-4">Making the difference</p>
                 <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-white leading-tight mb-6 text-balance">
-                  {CAROUSEL_IMAGES[currentSlide].caption === "Caring for early lives"
-                    ? "Caring for early lives"
-                    : CAROUSEL_IMAGES[currentSlide].caption === "Empowering every child"
-                      ? "Empowering every child"
-                      : CAROUSEL_IMAGES[currentSlide].caption === "To embrace adulthood positively"
-                        ? "To embrace adulthood positively"
-                        : "Making a Difference"}
+                  {CAROUSEL_IMAGES[currentSlide].caption === "Making the difference"
+                    ? "Making the difference"
+                    : CAROUSEL_IMAGES[currentSlide].caption === "One Mother. one Child at a Time."
+                      ? "One Mother. one Child at a Time."
+                      : CAROUSEL_IMAGES[currentSlide].caption === "One Mother. one Child at a Time."
+                        ? "One Mother. one Child at a Time."
+                        : "One Mother. one Child at a Time."}
                 </h1>
                 <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto">
                   {CAROUSEL_IMAGES[currentSlide].caption}
