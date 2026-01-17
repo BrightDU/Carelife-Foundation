@@ -33,7 +33,8 @@ export default function FooterSection() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
-                  href="/donate"
+                  href="https://ko-fi.com/carelifefoundation"
+                  target="_blank"
                   className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors shadow-lg inline-block text-center"
                 >
                   Donate Now
@@ -169,7 +170,7 @@ export default function FooterSection() {
               <h4 className="font-semibold mb-4">More</h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/donate" className="hover:text-primary-foreground/80 transition-colors">
+                  <Link href="https://ko-fi.com/carelifefoundation" target="_blank" className="hover:text-primary-foreground/80 transition-colors">
                     Donate
                   </Link>
                 </li>

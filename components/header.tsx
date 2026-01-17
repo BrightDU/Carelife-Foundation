@@ -126,7 +126,9 @@ export default function Header() {
 
           {/* Donate Button - Desktop */}
           <Link
-            href="/donate"
+            href="https://ko-fi.com/carelifefoundation"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden lg:inline-block px-6 py-2 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors shadow-md flex-shrink-0"
           >
             Donate
