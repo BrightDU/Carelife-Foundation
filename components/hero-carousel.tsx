@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Link from "next/link"
 import { ChevronLeft, ChevronRight, ArrowDown } from "lucide-react"
 import ScrollReveal from "./scroll-reveal"
 
@@ -158,9 +159,9 @@ export default function HeroCarousel() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <button className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors shadow-lg">
+                  <Link href="https://ko-fi.com/carelifefoundation" target="_blank" className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors shadow-lg">
                     Donate Now
-                  </button>
+                  </Link>
                   <button className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-colors">
                     Learn More
                   </button>
