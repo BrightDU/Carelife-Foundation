@@ -121,6 +121,7 @@ export default function HeroCarousel() {
         ))}
 
         {/* Center Caption */}
+        
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <div className="text-center max-w-4xl mx-auto px-4">
             <ScrollReveal animation="fade-in-up">
