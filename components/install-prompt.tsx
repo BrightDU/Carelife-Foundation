@@ -17,7 +17,7 @@ export default function InstallPrompt() {
     }
 
     const handler = (e: Event) => {
-      console.log("[v0] beforeinstallprompt event fired")
+      console.log("beforeinstallprompt event fired")
       e.preventDefault()
       setDeferredPrompt(e)
       // Show after 3 seconds
