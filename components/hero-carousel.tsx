@@ -15,10 +15,6 @@ const CAROUSEL_IMAGES = [
     caption: "Rescuing hope—one mother, one child at a time.",
   },
   {
-    src: "/hero/3.jpg",
-    caption: "To embrace adulthood positively",
-  },
-  {
     src: "/hero/4.jpg",
     caption: "230 children under our care",
   },
@@ -148,16 +144,16 @@ export default function HeroCarousel() {
                 {/* Statistics */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
                   <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 md:p-6 border border-white/20">
-                    <p className="text-2xl md:text-3xl font-bold text-white">230+</p>
-                    <p className="text-xs md:text-sm text-white/80 mt-1">Children Under Our Care</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white">5,846 & 11,286</p>
+                    <p className="text-xs md:text-sm text-white/80 mt-1">Mothers & Children Reached</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 md:p-6 border border-white/20">
-                    <p className="text-2xl md:text-3xl font-bold text-white">58</p>
-                    <p className="text-xs md:text-sm text-white/80 mt-1">Donations Collected</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white">1,340+</p>
+                    <p className="text-xs md:text-sm text-white/80 mt-1">Maternal Kits Distributed</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 md:p-6 border border-white/20">
-                    <p className="text-2xl md:text-3xl font-bold text-white">1.6M+</p>
-                    <p className="text-xs md:text-sm text-white/80 mt-1">Impact Reached</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white">5,049+</p>
+                    <p className="text-xs md:text-sm text-white/80 mt-1">Nutrition Support</p>
                   </div>
                 </div>
 

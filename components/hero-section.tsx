@@ -49,16 +49,16 @@ export default function HeroSection() {
             {/* Impact Stats */}
             <div className="grid grid-cols-3 gap-4 md:gap-6 mt-12">
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 md:p-6 border border-white/20">
-                <p className="text-2xl md:text-4xl font-bold text-white">1.6M+</p>
-                <p className="text-xs md:text-sm text-white/80 mt-1">Donations Received</p>
+                <p className="text-2xl md:text-4xl font-bold text-white">5,846 & 11,286</p>
+                <p className="text-xs md:text-sm text-white/80 mt-1">Mothers & Children Reached</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 md:p-6 border border-white/20">
-                <p className="text-2xl md:text-4xl font-bold text-white">40+</p>
-                <p className="text-xs md:text-sm text-white/80 mt-1">Volunteers</p>
+                <p className="text-2xl md:text-4xl font-bold text-white">1,340+</p>
+                <p className="text-xs md:text-sm text-white/80 mt-1">Maternal Kits Distributed</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 md:p-6 border border-white/20">
-                <p className="text-2xl md:text-4xl font-bold text-white">10+</p>
-                <p className="text-xs md:text-sm text-white/80 mt-1">Care Homes</p>
+                <p className="text-2xl md:text-4xl font-bold text-white">5,049+</p>
+                <p className="text-xs md:text-sm text-white/80 mt-1">Nutrition Support</p>
               </div>
             </div>
           </div>
