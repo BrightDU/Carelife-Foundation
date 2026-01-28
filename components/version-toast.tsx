@@ -138,7 +138,7 @@
 import { useEffect, useState } from "react"
 import { X, RefreshCw } from "lucide-react"
 
-const CURRENT_VERSION = process.env.APP_VERSION || "1.3.0"
+const CURRENT_VERSION = process.env.APP_VERSION || "2.0.0"
 const DB_NAME = "carelife_app"
 const STORE_NAME = "version_info"
 

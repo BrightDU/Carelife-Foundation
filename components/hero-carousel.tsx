@@ -12,7 +12,7 @@ const CAROUSEL_IMAGES = [
   },
   {
     src: "/hero/2.jpg",
-    caption: "One Mother. one Child at a Time.",
+    caption: "Rescuing hope—one mother, one child at a time.",
   },
   {
     src: "/hero/3.jpg",
@@ -23,16 +23,20 @@ const CAROUSEL_IMAGES = [
     caption: "230 children under our care",
   },
   {
-    src: "/hero/5.jpg",
-    caption: "58 donations collected",
+    src: "/hero/92.jpg",
+    caption: "Scanning a Pregnant mother",
   },
   {
-    src: "/hero/6.jpg",
-    caption: "Building better futures",
+    src: "/hero/93.jpg",
+    caption: "",
   },
   {
-    src: "/hero/53.jpg",
-    caption: "Healthcare for all",
+    src: "/hero/94.jpg",
+    caption: "",
+  },
+  {
+    src: "/hero/95.jpg",
+    caption: "",
   },
   {
     src: "/hero/80.jpg",
@@ -127,19 +131,19 @@ export default function HeroCarousel() {
           <div className="text-center max-w-4xl mx-auto px-4">
             <ScrollReveal animation="fade-in-up">
               <div>
-                <p className="text-white/90 font-semibold text-sm md:text-base mb-4">Making the difference</p>
+                {/* <p className="text-white/90 font-semibold text-sm md:text-base mb-4">Making the difference</p> */}
                 <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-white leading-tight mb-6 text-balance">
                   {CAROUSEL_IMAGES[currentSlide].caption === "Making the difference"
                     ? "Making the difference"
-                    : CAROUSEL_IMAGES[currentSlide].caption === "One Mother. one Child at a Time."
-                      ? "One Mother. one Child at a Time."
-                      : CAROUSEL_IMAGES[currentSlide].caption === "One Mother. one Child at a Time."
-                        ? "One Mother. one Child at a Time."
-                        : "One Mother. one Child at a Time."}
+                    : CAROUSEL_IMAGES[currentSlide].caption === "Rescuing hope—one mother, one child at a time."
+                      ? "Rescuing hope—one mother, one child at a time."
+                      : CAROUSEL_IMAGES[currentSlide].caption === "Rescuing hope—one mother, one child at a time."
+                        ? "Rescuing hope—one mother, one child at a time."
+                        : "Rescuing hope—one mother, one child at a time."}
                 </h1>
-                <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto">
+                {/* <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto">
                   {CAROUSEL_IMAGES[currentSlide].caption}
-                </p>
+                </p> */}
 
                 {/* Statistics */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

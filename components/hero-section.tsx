@@ -41,9 +41,9 @@ export default function HeroSection() {
               {/* <button className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors shadow-lg">
                 Donate Now
               </button> */}
-              <button className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-colors">
+              {/* <button className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-colors">
                 Learn More
-              </button>
+              </button> */}
             </div>
 
             {/* Impact Stats */}

@@ -3,7 +3,8 @@
 import LayoutWrapper from "@/components/layout-wrapper"
 import ScrollReveal from "@/components/scroll-reveal"
 import Image from "next/image"
-import image1 from "../../public/gallery/10.jpg"
+import image1 from "../../public/gallery/carelife-team-1.jpg"
+import image2 from "../../public/gallery/carelife-beneficiaries.jpg"
 
 export default function AboutPage() {
   const programCards = [
@@ -37,7 +38,7 @@ export default function AboutPage() {
       <div className="min-h-screen pt-12 pb-24 md:pb-0">
         {/* Hero Section */}
         <section className="relative h-96 md:h-[500px] overflow-hidden">
-          <Image src="/children-healthcare-community-outreach.jpg" alt="About Us Hero" fill className="object-cover" />
+          <Image src="gallery/about-hero-image.jpg" alt="About Us Hero" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/60" />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center">
@@ -54,16 +55,27 @@ export default function AboutPage() {
         {/* Our Story */}
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
-              <ScrollReveal animation="fade-in-up">
-                <Image 
-                  src={image1}
-                  alt="Our Story"
-                  width={500}
-                  height={400}
-                  className="rounded-xl shadow-lg"
-                />
-              </ScrollReveal>
+            <div className="grid gap-12 items-center max-w-5xl mx-auto">
+              <div className="grid gap-12 md:grid-cols-2">
+                  <ScrollReveal animation="fade-in-up">
+                  <Image 
+                    src={image1}
+                    alt="Our Story"
+                    width={500}
+                    height={400}
+                    className="rounded-xl shadow-lg"
+                  />
+                </ScrollReveal>
+                <ScrollReveal animation="fade-in-up">
+                  <Image 
+                    src={image2}
+                    alt="Our Story"
+                    width={500}
+                    height={400}
+                    className="rounded-xl shadow-lg"
+                  />
+                </ScrollReveal>
+              </div>
               <ScrollReveal animation="fade-in-up">
                 <div>
                   <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">What We Do</h2>
@@ -109,16 +121,16 @@ export default function AboutPage() {
               ))}
             </div>
 
-            <div className="text-center mt-12">
+            {/* <div className="text-center mt-12">
               <button className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors">
                 Read More
               </button>
-            </div>
+            </div> */}
           </div>
         </section>
 
         {/* Team Section */}
-        <section className="py-16 md:py-24">
+        {/* <section className="py-16 md:py-24">
           <div className="container mx-auto px-4">
             <ScrollReveal animation="fade-in-up">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-center">
@@ -141,7 +153,7 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* CTA Section */}
         <section className="bg-muted/30 py-16 md:py-24">

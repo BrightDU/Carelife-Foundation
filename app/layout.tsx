@@ -81,7 +81,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "CareLife Foundation - Empowering Every Child",
+  title: "CareLife Foundation - Caring for early lives",
   description:
     "Caring for early lives. Empowering every child to embrace adulthood positively through healthcare, nutrition, and early childhood development.",
   generator: "CareLife Foundation",
