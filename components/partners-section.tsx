@@ -11,7 +11,7 @@ export default function PartnersSection() {
     // { name: "Partner 5", image: "/partners-logos/KD.WEBP" },
     // { name: "Partner 6", image: "/partners-logos/CrystalEdTech.WEBP" },
     { name: "Partner 7", image: "/partners-logos/AKS-Arise.png" },
-    { name: "Partner 8", image: "/partners-logos/AKSHIA.JPEG" },
+    { name: "Partner 8", image: "/partners-logos/AKSHIA.JPG" },
     { name: "Partner 9", image: "/partners-logos/AKSPHCDA.png" },
     // { name: "Partner 10", image: "/partners-logos/ARRDEC-Logo-New.png" },
     // { name: "Partner 11", image: "/partners-logos/CCCRN.JPEG" },
@@ -24,7 +24,6 @@ export default function PartnersSection() {
     { name: "Partner 18", image: "/partners-logos/STILT-NG-LOGO.png" },
     { name: "Partner 19", image: "/partners-logos/TCI-logo.png" },
     { name: "Partner 20", image: "/partners-logos/UNFPA.png" },
-    { name: "Partner 21", image: "/partners-logos/MSI_NG.png" },
   ]
 
  return (
